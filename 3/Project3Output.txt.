@@ -1,0 +1,310 @@
+PipeLine Contents: 
+ Register $0: 0x00
+ Register $1: 0x101
+ Register $2: 0x102
+ Register $3: 0x103
+ Register $4: 0x104
+ Register $5: 0x105
+ Register $6: 0x106
+ Register $7: 0x107
+ Register $8: 0x108
+ Register $9: 0x109
+ Register $10: 0x10a
+ Register $11: 0x10b
+ Register $12: 0x10c
+ Register $13: 0x10d
+ Register $14: 0x10e
+ Register $15: 0x10f
+ Register $16: 0x110
+ Register $17: 0x111
+ Register $18: 0x112
+ Register $19: 0x113
+ Register $20: 0x114
+ Register $21: 0x115
+ Register $22: 0x116
+ Register $23: 0x117
+ Register $24: 0x118
+ Register $25: 0x119
+ Register $26: 0x11a
+ Register $27: 0x11b
+ Register $28: 0x11c
+ Register $29: 0x11d
+ Register $30: 0x11e
+ Register $31: 0x11f
+
+IF/ID Write Register Contents:
+PC: 1, InstSet: 0x810f0004, 
+
+IF/ID Read Register Contents:
+PC: 0, InstSet: 0x00, 
+
+ID/EX Write Register Contents: 
+ALUOp: 0b0 ,MemWrite: 0 ,MemToReg: 0 ,dest: $0 ,srcordest: $0 ,Offset: 0x00 ,ALUSrc: 0 ,RegWrite: 0 ,Jump: 0 ,Read2: 0x00 ,Branch: 0 ,Read1: 0x00 ,RegDest: 0 ,MemRead: 0 
+
+
+ID/EX Write Register Contents: 
+ALUOp: 0b0 ,MemWrite: 0 ,MemToReg: 0 ,dest: $0 ,srcordest: $0 ,Offset: 0x00 ,ALUSrc: 0 ,RegWrite: 0 ,Jump: 0 ,Read2: 0x00 ,Branch: 0 ,Read1: 0x00 ,RegDest: 0 ,MemRead: 0 
+
+
+EX/MEM Write Register Contents: 
+WriteData: 0x00 ,MemToReg: 0 ,WriteRegister: $0 ,zero: 1 ,RegWrite: 0 ,MemWrite: 0 ,ALUResult: 0x00 ,Branch: 0 ,MemRead: 0 
+
+
+EX/MEM Write Register Contents: 
+WriteData: 0x00 ,MemToReg: 0 ,WriteRegister: $0 ,zero: 0 ,RegWrite: 0 ,MemWrite: 0 ,ALUResult: 0x00 ,Branch: 0 ,MemRead: 0 
+
+
+MEM/WB Write Register Contents: 
+ALUResult: 0x00 ,WriteRegister: $0 ,ReadData: 0x00 ,MemToReg: 0 ,RegWrite: 0 
+
+
+MEM/WB Write Register Contents: 
+ALUResult: 0x00 ,WriteRegister: $0 ,ReadData: 0x00 ,MemToReg: 0 ,RegWrite: 0 
+PipeLine Contents: 
+ Register $0: 0x00
+ Register $1: 0x101
+ Register $2: 0x102
+ Register $3: 0x103
+ Register $4: 0x104
+ Register $5: 0x105
+ Register $6: 0x106
+ Register $7: 0x107
+ Register $8: 0x108
+ Register $9: 0x109
+ Register $10: 0x10a
+ Register $11: 0x10b
+ Register $12: 0x10c
+ Register $13: 0x10d
+ Register $14: 0x10e
+ Register $15: 0x10f
+ Register $16: 0x110
+ Register $17: 0x111
+ Register $18: 0x112
+ Register $19: 0x113
+ Register $20: 0x114
+ Register $21: 0x115
+ Register $22: 0x116
+ Register $23: 0x117
+ Register $24: 0x118
+ Register $25: 0x119
+ Register $26: 0x11a
+ Register $27: 0x11b
+ Register $28: 0x11c
+ Register $29: 0x11d
+ Register $30: 0x11e
+ Register $31: 0x11f
+
+IF/ID Write Register Contents:
+PC: 2, InstSet: 0x00, 
+
+IF/ID Read Register Contents:
+PC: 1, InstSet: 0x810f0004, 
+
+ID/EX Write Register Contents: 
+ALUOp: 0b0 ,MemWrite: 0 ,MemToReg: 1 ,dest: $0 ,srcordest: $15 ,Offset: 0x04 ,ALUSrc: 1 ,RegWrite: 1 ,Jump: 0 ,Read2: 0x10f ,Branch: 0 ,Read1: 0x108 ,RegDest: 0 ,MemRead: 1 
+
+
+ID/EX Write Register Contents: 
+ALUOp: 0b0 ,MemWrite: 0 ,MemToReg: 0 ,dest: $0 ,srcordest: $0 ,Offset: 0x00 ,ALUSrc: 0 ,RegWrite: 0 ,Jump: 0 ,Read2: 0x00 ,Branch: 0 ,Read1: 0x00 ,RegDest: 0 ,MemRead: 0 
+
+
+EX/MEM Write Register Contents: 
+WriteData: 0x00 ,MemToReg: 0 ,WriteRegister: $0 ,zero: 1 ,RegWrite: 0 ,MemWrite: 0 ,ALUResult: 0x00 ,Branch: 0 ,MemRead: 0 
+
+
+EX/MEM Write Register Contents: 
+WriteData: 0x00 ,MemToReg: 0 ,WriteRegister: $0 ,zero: 1 ,RegWrite: 0 ,MemWrite: 0 ,ALUResult: 0x00 ,Branch: 0 ,MemRead: 0 
+
+
+MEM/WB Write Register Contents: 
+ALUResult: 0x00 ,WriteRegister: $0 ,ReadData: 0x00 ,MemToReg: 0 ,RegWrite: 0 
+
+
+MEM/WB Write Register Contents: 
+ALUResult: 0x00 ,WriteRegister: $0 ,ReadData: 0x00 ,MemToReg: 0 ,RegWrite: 0 
+PipeLine Contents: 
+ Register $0: 0x00
+ Register $1: 0x101
+ Register $2: 0x102
+ Register $3: 0x103
+ Register $4: 0x104
+ Register $5: 0x105
+ Register $6: 0x106
+ Register $7: 0x107
+ Register $8: 0x108
+ Register $9: 0x109
+ Register $10: 0x10a
+ Register $11: 0x10b
+ Register $12: 0x10c
+ Register $13: 0x10d
+ Register $14: 0x10e
+ Register $15: 0x10f
+ Register $16: 0x110
+ Register $17: 0x111
+ Register $18: 0x112
+ Register $19: 0x113
+ Register $20: 0x114
+ Register $21: 0x115
+ Register $22: 0x116
+ Register $23: 0x117
+ Register $24: 0x118
+ Register $25: 0x119
+ Register $26: 0x11a
+ Register $27: 0x11b
+ Register $28: 0x11c
+ Register $29: 0x11d
+ Register $30: 0x11e
+ Register $31: 0x11f
+
+IF/ID Write Register Contents:
+PC: 3, InstSet: 0x00, 
+
+IF/ID Read Register Contents:
+PC: 2, InstSet: 0x00, 
+
+ID/EX Write Register Contents: 
+ALUOp: 0b0 ,MemWrite: 0 ,MemToReg: 0 ,dest: $0 ,srcordest: $0 ,Offset: 0x00 ,ALUSrc: 0 ,RegWrite: 0 ,Jump: 0 ,Read2: 0x00 ,Branch: 0 ,Read1: 0x00 ,RegDest: 0 ,MemRead: 0 
+
+
+ID/EX Write Register Contents: 
+ALUOp: 0b0 ,MemWrite: 0 ,MemToReg: 1 ,dest: $0 ,srcordest: $15 ,Offset: 0x04 ,ALUSrc: 1 ,RegWrite: 1 ,Jump: 0 ,Read2: 0x10f ,Branch: 0 ,Read1: 0x108 ,RegDest: 0 ,MemRead: 1 
+
+
+EX/MEM Write Register Contents: 
+WriteData: 0x10f ,MemToReg: 1 ,WriteRegister: $15 ,zero: 0 ,RegWrite: 1 ,MemWrite: 0 ,ALUResult: 0x10c ,Branch: 0 ,MemRead: 1 
+
+
+EX/MEM Write Register Contents: 
+WriteData: 0x00 ,MemToReg: 0 ,WriteRegister: $0 ,zero: 1 ,RegWrite: 0 ,MemWrite: 0 ,ALUResult: 0x00 ,Branch: 0 ,MemRead: 0 
+
+
+MEM/WB Write Register Contents: 
+ALUResult: 0x00 ,WriteRegister: $0 ,ReadData: 0x00 ,MemToReg: 0 ,RegWrite: 0 
+
+
+MEM/WB Write Register Contents: 
+ALUResult: 0x00 ,WriteRegister: $0 ,ReadData: 0x00 ,MemToReg: 0 ,RegWrite: 0 
+PipeLine Contents: 
+ Register $0: 0x00
+ Register $1: 0x101
+ Register $2: 0x102
+ Register $3: 0x103
+ Register $4: 0x104
+ Register $5: 0x105
+ Register $6: 0x106
+ Register $7: 0x107
+ Register $8: 0x108
+ Register $9: 0x109
+ Register $10: 0x10a
+ Register $11: 0x10b
+ Register $12: 0x10c
+ Register $13: 0x10d
+ Register $14: 0x10e
+ Register $15: 0x10f
+ Register $16: 0x110
+ Register $17: 0x111
+ Register $18: 0x112
+ Register $19: 0x113
+ Register $20: 0x114
+ Register $21: 0x115
+ Register $22: 0x116
+ Register $23: 0x117
+ Register $24: 0x118
+ Register $25: 0x119
+ Register $26: 0x11a
+ Register $27: 0x11b
+ Register $28: 0x11c
+ Register $29: 0x11d
+ Register $30: 0x11e
+ Register $31: 0x11f
+
+IF/ID Write Register Contents:
+PC: 4, InstSet: 0x00, 
+
+IF/ID Read Register Contents:
+PC: 3, InstSet: 0x00, 
+
+ID/EX Write Register Contents: 
+ALUOp: 0b0 ,MemWrite: 0 ,MemToReg: 0 ,dest: $0 ,srcordest: $0 ,Offset: 0x00 ,ALUSrc: 0 ,RegWrite: 0 ,Jump: 0 ,Read2: 0x00 ,Branch: 0 ,Read1: 0x00 ,RegDest: 0 ,MemRead: 0 
+
+
+ID/EX Write Register Contents: 
+ALUOp: 0b0 ,MemWrite: 0 ,MemToReg: 0 ,dest: $0 ,srcordest: $0 ,Offset: 0x00 ,ALUSrc: 0 ,RegWrite: 0 ,Jump: 0 ,Read2: 0x00 ,Branch: 0 ,Read1: 0x00 ,RegDest: 0 ,MemRead: 0 
+
+
+EX/MEM Write Register Contents: 
+WriteData: 0x00 ,MemToReg: 0 ,WriteRegister: $0 ,zero: 1 ,RegWrite: 0 ,MemWrite: 0 ,ALUResult: 0x00 ,Branch: 0 ,MemRead: 0 
+
+
+EX/MEM Write Register Contents: 
+WriteData: 0x10f ,MemToReg: 1 ,WriteRegister: $15 ,zero: 0 ,RegWrite: 1 ,MemWrite: 0 ,ALUResult: 0x10c ,Branch: 0 ,MemRead: 1 
+
+
+MEM/WB Write Register Contents: 
+ALUResult: 0x10c ,WriteRegister: $15 ,ReadData: 0x0c ,MemToReg: 1 ,RegWrite: 1 
+
+
+MEM/WB Write Register Contents: 
+ALUResult: 0x00 ,WriteRegister: $0 ,ReadData: 0x00 ,MemToReg: 0 ,RegWrite: 0 
+PipeLine Contents: 
+ Register $0: 0x00
+ Register $1: 0x101
+ Register $2: 0x102
+ Register $3: 0x103
+ Register $4: 0x104
+ Register $5: 0x105
+ Register $6: 0x106
+ Register $7: 0x107
+ Register $8: 0x108
+ Register $9: 0x109
+ Register $10: 0x10a
+ Register $11: 0x10b
+ Register $12: 0x10c
+ Register $13: 0x10d
+ Register $14: 0x10e
+ Register $15: 0x0c
+ Register $16: 0x110
+ Register $17: 0x111
+ Register $18: 0x112
+ Register $19: 0x113
+ Register $20: 0x114
+ Register $21: 0x115
+ Register $22: 0x116
+ Register $23: 0x117
+ Register $24: 0x118
+ Register $25: 0x119
+ Register $26: 0x11a
+ Register $27: 0x11b
+ Register $28: 0x11c
+ Register $29: 0x11d
+ Register $30: 0x11e
+ Register $31: 0x11f
+
+IF/ID Write Register Contents:
+PC: 5, InstSet: 0x00, 
+
+IF/ID Read Register Contents:
+PC: 4, InstSet: 0x00, 
+
+ID/EX Write Register Contents: 
+ALUOp: 0b0 ,MemWrite: 0 ,MemToReg: 0 ,dest: $0 ,srcordest: $0 ,Offset: 0x00 ,ALUSrc: 0 ,RegWrite: 0 ,Jump: 0 ,Read2: 0x00 ,Branch: 0 ,Read1: 0x00 ,RegDest: 0 ,MemRead: 0 
+
+
+ID/EX Write Register Contents: 
+ALUOp: 0b0 ,MemWrite: 0 ,MemToReg: 0 ,dest: $0 ,srcordest: $0 ,Offset: 0x00 ,ALUSrc: 0 ,RegWrite: 0 ,Jump: 0 ,Read2: 0x00 ,Branch: 0 ,Read1: 0x00 ,RegDest: 0 ,MemRead: 0 
+
+
+EX/MEM Write Register Contents: 
+WriteData: 0x00 ,MemToReg: 0 ,WriteRegister: $0 ,zero: 1 ,RegWrite: 0 ,MemWrite: 0 ,ALUResult: 0x00 ,Branch: 0 ,MemRead: 0 
+
+
+EX/MEM Write Register Contents: 
+WriteData: 0x00 ,MemToReg: 0 ,WriteRegister: $0 ,zero: 1 ,RegWrite: 0 ,MemWrite: 0 ,ALUResult: 0x00 ,Branch: 0 ,MemRead: 0 
+
+
+MEM/WB Write Register Contents: 
+ALUResult: 0x00 ,WriteRegister: $0 ,ReadData: 0x0c ,MemToReg: 0 ,RegWrite: 0 
+
+
+MEM/WB Write Register Contents: 
+ALUResult: 0x10c ,WriteRegister: $15 ,ReadData: 0x0c ,MemToReg: 1 ,RegWrite: 1 
